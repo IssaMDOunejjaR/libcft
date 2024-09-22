@@ -1,6 +1,7 @@
 #ifndef FT_LIST_h
 #define FT_LIST_h
 
+#include <stddef.h>
 #include <stdlib.h>
 
 typedef struct s_list {
@@ -32,5 +33,6 @@ void ft_sorted_list_insert(List **begin_list, void *data,
                            int (*cmp)(void *, void *));
 void ft_sorted_list_merge(List **begin_list1, List *begin_list2,
                           int (*cmp)(void *, void *));
+char **ft_list_to_strs(List *begin_list, size_t length);
 
 #endif
