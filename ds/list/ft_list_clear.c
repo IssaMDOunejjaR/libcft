@@ -1,5 +1,4 @@
 #include "ft_list.h"
-#include <stdio.h>
 
 void ft_list_clear(List *begin_list, void (*free_fct)(void *)) {
   if (!free_fct)
