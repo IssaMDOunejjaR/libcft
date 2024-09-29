@@ -1,5 +1,5 @@
-LIB			= ft_int.a
-HEADER	= ft_int.h
+LIB			= ft_number.a
+HEADER	= ft_number.h
 FLAGS		= -Wall -Wextra -Werror
 SRCS		= $(wildcard ./ft_*.c)
 OBJS		= $(SRCS:.c=.o)

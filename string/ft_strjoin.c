@@ -1,6 +1,9 @@
 #include "ft_string.h"
 
 char *ft_strjoin(char *s1, char *s2) {
+  if (!s1 && !s2)
+    return NULL;
+
   if (s1 == NULL)
     return ft_strdup(s2);
 
@@ -15,6 +18,11 @@ char *ft_strjoin(char *s1, char *s2) {
   ft_strcpy(str + s1_len, s2);
 
   str[s1_len + s2_len] = '\0';
+
+  if (s1)
+    free(s1);
+  if (s2)
+    free(s2);
 
   return str;
 }

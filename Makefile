@@ -1,4 +1,4 @@
-.PHONY: array ds int io string table
+.PHONY: array ds number io string table
 
 all: array ds int io string table
 	
@@ -8,8 +8,8 @@ array:
 ds:
 	cd ./ds/list && $(MAKE) all clean
 	
-int:
-	cd ./int && $(MAKE) all clean
+number:
+	cd ./number && $(MAKE) all clean
 	
 io:
 	cd ./io && $(MAKE) all clean

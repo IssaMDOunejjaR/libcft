@@ -1,7 +1,7 @@
 #ifndef FT_STRING_H
 #define FT_STRING_H
 
-#include "../int/ft_int.h"
+#include "../number/ft_number.h"
 #include <limits.h>
 #include <stddef.h>
 #include <stdlib.h>
