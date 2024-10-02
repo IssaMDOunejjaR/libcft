@@ -3,19 +3,19 @@
 all: array ds int io string table
 	
 array:
-	cd ./array && $(MAKE) all clean
+	cd ./array && $(MAKE) all
 	
 ds:
-	cd ./ds/list && $(MAKE) all clean
+	cd ./ds/list && $(MAKE) all 
 	
 number:
-	cd ./number && $(MAKE) all clean
+	cd ./number && $(MAKE) all 
 	
 io:
-	cd ./io && $(MAKE) all clean
+	cd ./io && $(MAKE) all 
 	
 string:
-	cd ./string && $(MAKE) all clean
+	cd ./string && $(MAKE) all 
 	
 table:
-	cd ./table && $(MAKE) all clean
+	cd ./table && $(MAKE) all 
