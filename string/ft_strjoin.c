@@ -19,10 +19,5 @@ char *ft_strjoin(char *s1, char *s2) {
 
   str[s1_len + s2_len] = '\0';
 
-  if (s1)
-    free(s1);
-  if (s2)
-    free(s2);
-
   return str;
 }

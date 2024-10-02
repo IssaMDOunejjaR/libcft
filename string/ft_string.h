@@ -21,5 +21,7 @@ char **ft_split(const char *str, char c);
 int ft_index_of(const char *str, char c);
 int ft_last_index_of(char *str, char c);
 char *ft_trim(char const *str, char const *set);
+char *ft_signed_num_to_str(long long number);
+char *ft_unsigned_num_to_str(unsigned long long number);
 
 #endif
