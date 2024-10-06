@@ -8,6 +8,7 @@
 
 size_t ft_strlen(const char *s);
 char *ft_strcpy(char *dst, const char *src);
+char *ft_strncpy(char *dst, const char *src, size_t dsize);
 char *ft_strdup(const char *s);
 char *ft_strchr(const char *s, int c);
 char *ft_strcat(char *dst, const char *src);
