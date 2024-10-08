@@ -1,6 +1,6 @@
 .PHONY: array ds number io string table
 
-all: array ds int io string table
+all: array ds number io string table
 	
 array:
 	cd ./array && $(MAKE) all
