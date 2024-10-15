@@ -1,6 +1,6 @@
-#include "../headers/ft_lib.h"
+#include "ft_table.h"
 
-void table_free(char **table) {
+void ft_table_clear(char **table) {
   if (table == NULL)
     return;
 
