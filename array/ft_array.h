@@ -1,6 +1,7 @@
 #ifndef FT_ARRAY_H
 #define FT_ARRAY_H
 
+#include "../string/ft_string.h"
 #include <stddef.h>
 #include <stdlib.h>
 

@@ -26,5 +26,6 @@ char *ft_signed_num_to_str(long long number);
 char *ft_unsigned_num_to_str(unsigned long long number);
 int ft_is_in_set(char c, char *set);
 char *ft_has_set(char *str, char *set);
+void *ft_memcpy(void *dest, const void *src, size_t n);
 
 #endif
